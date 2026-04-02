@@ -10,9 +10,12 @@ let markers = [];
 let universities = [];
 
 const template = `
+<section class="hero-small">
+    <h1>澳洲大学地图</h1>
+    <p>涵盖八大名校、科技联盟、创新研究等 37 所大学，互动地图一览全貌</p>
+</section>
 <section class="section">
     <div class="container-wide">
-        <h2>澳洲大学地图</h2>
         <div class="filter-bar">
             <button class="filter-btn active" data-group="all">全部</button>
             <button class="filter-btn" data-group="Go8">八大名校 (Go8)</button>
