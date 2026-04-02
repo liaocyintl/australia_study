@@ -6,6 +6,7 @@ const routes = {
 };
 
 let currentModule = null;
+let navigating = false;
 const content = document.getElementById('page-content');
 
 function loadCSS(href) {
@@ -23,44 +24,40 @@ function updateActiveNav(route) {
 }
 
 async function navigate() {
-    const hash = location.hash.slice(2) || ''; // "#/cities" -> "cities"
-    const route = hash.split('/')[0]; // handle "#/work/something"
-    const loader = routes[route];
+    if (navigating) return;
+    navigating = true;
 
-    if (!loader) {
-        // Unknown route - go home
-        location.hash = '#/';
-        return;
+    try {
+        const hash = location.hash.slice(2) || '';
+        const route = hash.split('/')[0];
+        const loader = routes[route];
+
+        if (!loader) {
+            location.hash = '#/';
+            return;
+        }
+
+        if (currentModule?.destroy) currentModule.destroy();
+        currentModule = null;
+
+        content.innerHTML = '<div class="loading">加载中...</div>';
+        updateActiveNav(route);
+
+        const mod = await loader();
+        currentModule = mod;
+        await mod.init(content, loadCSS);
+
+        window.scrollTo(0, 0);
+    } finally {
+        navigating = false;
     }
-
-    if (currentModule?.destroy) currentModule.destroy();
-
-    content.innerHTML = '<div class="loading">加载中...</div>';
-    updateActiveNav(route);
-
-    const mod = await loader();
-    currentModule = mod;
-    await mod.init(content, loadCSS);
-
-    // Scroll to top on page change
-    window.scrollTo(0, 0);
 }
 
 window.addEventListener('hashchange', navigate);
 
-// Initial load
+// Single entry point for initial load
 if (!location.hash || location.hash === '#') {
     location.hash = '#/';
 } else {
-    navigate();
-}
-
-// Handle the case where hash is already #/ on load
-window.addEventListener('DOMContentLoaded', () => {
-    if (location.hash === '#/') navigate();
-});
-
-// If script runs after DOMContentLoaded
-if (document.readyState !== 'loading') {
     navigate();
 }
