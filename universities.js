@@ -20,24 +20,23 @@ let currentFilter = 'all';
 
 function initMap() {
     map = L.map('map').setView([-25.5, 134], 4);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-        maxZoom: 18
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+        maxZoom: 19,
+        subdomains: 'abcd'
     }).addTo(map);
 }
 
-function createMarkerIcon(group) {
+function markerOptions(group) {
     const color = GROUP_COLORS[group] || GROUP_COLORS[''];
-    return L.divIcon({
-        className: 'custom-marker',
-        html: `<svg width="24" height="36" viewBox="0 0 24 36">
-            <path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24C24 5.4 18.6 0 12 0z" fill="${color}"/>
-            <circle cx="12" cy="12" r="5" fill="white"/>
-        </svg>`,
-        iconSize: [24, 36],
-        iconAnchor: [12, 36],
-        popupAnchor: [0, -36]
-    });
+    return {
+        radius: 8,
+        fillColor: color,
+        color: '#fff',
+        weight: 2,
+        opacity: 1,
+        fillOpacity: 0.9
+    };
 }
 
 function createPopupContent(uni) {
@@ -57,9 +56,8 @@ function renderMarkers(data) {
     markers = [];
 
     data.forEach((uni, index) => {
-        const marker = L.marker([uni.lat, uni.lng], {
-            icon: createMarkerIcon(uni.group)
-        }).addTo(map);
+        const marker = L.circleMarker([uni.lat, uni.lng], markerOptions(uni.group))
+            .addTo(map);
 
         marker.bindPopup(createPopupContent(uni));
         marker.on('click', () => highlightListItem(index));

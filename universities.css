@@ -130,6 +130,12 @@ nav a.active {
 .group-IRU { background: #d5f5e3; color: #15803d; }
 .group-RUN { background: #fde8d0; color: #c2410c; }
 
+/* Custom marker - override Leaflet divIcon defaults */
+.custom-marker {
+    background: none !important;
+    border: none !important;
+}
+
 /* Leaflet popup */
 .uni-popup h3 {
     margin: 0 0 0.2rem;
