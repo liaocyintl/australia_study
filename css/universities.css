@@ -1,15 +1,5 @@
 /* Universities page styles */
 
-nav .logo a {
-    text-decoration: none;
-    color: inherit;
-}
-
-nav a.active {
-    color: #d4a843;
-    font-weight: 700;
-}
-
 .container-wide {
     max-width: 1200px;
     margin: 0 auto;
@@ -163,6 +153,105 @@ nav a.active {
 
 .uni-popup a:hover {
     text-decoration: underline;
+}
+
+/* Cost summary section */
+#cost-summary {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cost-summary-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.cost-summary-table thead th {
+    background: linear-gradient(135deg, #1a3a5c 0%, #2d6a9f 100%);
+    color: #fff;
+    padding: 1rem 1.2rem;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.cost-summary-table thead th:first-child {
+    border-radius: 12px 0 0 0;
+}
+
+.cost-summary-table thead th:last-child {
+    border-radius: 0 12px 0 0;
+    text-align: center;
+}
+
+.cost-summary-table td {
+    padding: 1rem 1.2rem;
+    font-size: 0.9rem;
+    color: #444;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.2s;
+}
+
+.cost-summary-table td:last-child {
+    text-align: center;
+    font-weight: 600;
+    color: #1a3a5c;
+}
+
+.cost-summary-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.cost-summary-table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 12px;
+}
+
+.cost-summary-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 12px 0;
+}
+
+.cost-summary-table tbody tr {
+    transition: all 0.2s;
+}
+
+.cost-summary-table tbody tr:hover {
+    background: #f7f9fc;
+    transform: scale(1.005);
+}
+
+.cost-summary-table .uni-group-tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.7rem;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.cost-summary-table .rank-cell {
+    font-family: "SF Mono", "Menlo", monospace;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.cost-summary-table .tuition-cell {
+    font-weight: 600;
+    color: #2d6a9f;
+}
+
+.group-other { background: #e2e8f0; color: #475569; }
+
+.cost-note {
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+    color: #aaa;
+    text-align: center;
+    line-height: 1.6;
 }
 
 /* Responsive */

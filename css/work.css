@@ -1,8 +1,5 @@
 /* Work page styles */
 
-nav .logo a { text-decoration: none; color: inherit; }
-nav a.active { color: #d4a843; font-weight: 700; }
-
 .container-wide { max-width: 1200px; margin: 0 auto; }
 
 .section-desc {

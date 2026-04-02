@@ -8,7 +8,10 @@
     "lng": 144.9614,
     "website": "https://www.unimelb.edu.au",
     "group": "Go8",
-    "founded": 1853
+    "founded": 1853,
+    "qs_rank": 13,
+    "tuition_min": 37000,
+    "tuition_max": 58000
   },
   {
     "name_en": "Australian National University",
@@ -19,7 +22,10 @@
     "lng": 149.1185,
     "website": "https://www.anu.edu.au",
     "group": "Go8",
-    "founded": 1946
+    "founded": 1946,
+    "qs_rank": 30,
+    "tuition_min": 39000,
+    "tuition_max": 55000
   },
   {
     "name_en": "University of Sydney",
@@ -30,7 +36,10 @@
     "lng": 151.1873,
     "website": "https://www.sydney.edu.au",
     "group": "Go8",
-    "founded": 1850
+    "founded": 1850,
+    "qs_rank": 18,
+    "tuition_min": 40000,
+    "tuition_max": 57000
   },
   {
     "name_en": "University of Queensland",
@@ -41,7 +50,10 @@
     "lng": 153.0137,
     "website": "https://www.uq.edu.au",
     "group": "Go8",
-    "founded": 1909
+    "founded": 1909,
+    "qs_rank": 40,
+    "tuition_min": 36000,
+    "tuition_max": 52000
   },
   {
     "name_en": "University of New South Wales",
@@ -52,7 +64,10 @@
     "lng": 151.2313,
     "website": "https://www.unsw.edu.au",
     "group": "Go8",
-    "founded": 1949
+    "founded": 1949,
+    "qs_rank": 19,
+    "tuition_min": 38000,
+    "tuition_max": 56000
   },
   {
     "name_en": "Monash University",
@@ -63,7 +78,10 @@
     "lng": 145.1362,
     "website": "https://www.monash.edu",
     "group": "Go8",
-    "founded": 1958
+    "founded": 1958,
+    "qs_rank": 37,
+    "tuition_min": 37000,
+    "tuition_max": 55000
   },
   {
     "name_en": "University of Western Australia",
@@ -74,7 +92,10 @@
     "lng": 115.8176,
     "website": "https://www.uwa.edu.au",
     "group": "Go8",
-    "founded": 1911
+    "founded": 1911,
+    "qs_rank": 77,
+    "tuition_min": 34000,
+    "tuition_max": 50000
   },
   {
     "name_en": "University of Adelaide",
@@ -85,7 +106,10 @@
     "lng": 138.6040,
     "website": "https://www.adelaide.edu.au",
     "group": "Go8",
-    "founded": 1874
+    "founded": 1874,
+    "qs_rank": 82,
+    "tuition_min": 34000,
+    "tuition_max": 50000
   },
   {
     "name_en": "University of Technology Sydney",
@@ -96,7 +120,10 @@
     "lng": 151.2005,
     "website": "https://www.uts.edu.au",
     "group": "ATN",
-    "founded": 1988
+    "founded": 1988,
+    "qs_rank": 88,
+    "tuition_min": 34000,
+    "tuition_max": 48000
   },
   {
     "name_en": "RMIT University",
@@ -107,7 +134,10 @@
     "lng": 144.9632,
     "website": "https://www.rmit.edu.au",
     "group": "ATN",
-    "founded": 1887
+    "founded": 1887,
+    "qs_rank": 123,
+    "tuition_min": 32000,
+    "tuition_max": 45000
   },
   {
     "name_en": "Curtin University",
@@ -118,7 +148,10 @@
     "lng": 115.8941,
     "website": "https://www.curtin.edu.au",
     "group": "ATN",
-    "founded": 1966
+    "founded": 1966,
+    "qs_rank": 174,
+    "tuition_min": 30000,
+    "tuition_max": 42000
   },
   {
     "name_en": "Queensland University of Technology",
@@ -129,7 +162,10 @@
     "lng": 153.0285,
     "website": "https://www.qut.edu.au",
     "group": "ATN",
-    "founded": 1989
+    "founded": 1989,
+    "qs_rank": 189,
+    "tuition_min": 31000,
+    "tuition_max": 44000
   },
   {
     "name_en": "University of South Australia",
@@ -140,7 +176,10 @@
     "lng": 138.5700,
     "website": "https://www.unisa.edu.au",
     "group": "ATN",
-    "founded": 1991
+    "founded": 1991,
+    "qs_rank": 315,
+    "tuition_min": 29000,
+    "tuition_max": 40000
   },
   {
     "name_en": "Deakin University",
@@ -151,7 +190,10 @@
     "lng": 144.2945,
     "website": "https://www.deakin.edu.au",
     "group": "ATN",
-    "founded": 1974
+    "founded": 1974,
+    "qs_rank": 233,
+    "tuition_min": 30000,
+    "tuition_max": 42000
   },
   {
     "name_en": "Flinders University",
@@ -162,7 +204,10 @@
     "lng": 138.5713,
     "website": "https://www.flinders.edu.au",
     "group": "IRU",
-    "founded": 1966
+    "founded": 1966,
+    "qs_rank": 407,
+    "tuition_min": 29000,
+    "tuition_max": 40000
   },
   {
     "name_en": "Griffith University",
@@ -173,7 +218,10 @@
     "lng": 153.0485,
     "website": "https://www.griffith.edu.au",
     "group": "IRU",
-    "founded": 1971
+    "founded": 1971,
+    "qs_rank": 315,
+    "tuition_min": 29000,
+    "tuition_max": 42000
   },
   {
     "name_en": "James Cook University",
@@ -184,7 +232,10 @@
     "lng": 146.7567,
     "website": "https://www.jcu.edu.au",
     "group": "IRU",
-    "founded": 1970
+    "founded": 1970,
+    "qs_rank": 415,
+    "tuition_min": 29000,
+    "tuition_max": 40000
   },
   {
     "name_en": "La Trobe University",
@@ -195,7 +246,10 @@
     "lng": 145.0488,
     "website": "https://www.latrobe.edu.au",
     "group": "IRU",
-    "founded": 1964
+    "founded": 1964,
+    "qs_rank": 217,
+    "tuition_min": 30000,
+    "tuition_max": 42000
   },
   {
     "name_en": "Murdoch University",
@@ -206,7 +260,10 @@
     "lng": 115.8385,
     "website": "https://www.murdoch.edu.au",
     "group": "IRU",
-    "founded": 1973
+    "founded": 1973,
+    "qs_rank": 431,
+    "tuition_min": 28000,
+    "tuition_max": 38000
   },
   {
     "name_en": "Western Sydney University",
@@ -217,7 +274,10 @@
     "lng": 150.7524,
     "website": "https://www.westernsydney.edu.au",
     "group": "IRU",
-    "founded": 1989
+    "founded": 1989,
+    "qs_rank": 258,
+    "tuition_min": 28000,
+    "tuition_max": 40000
   },
   {
     "name_en": "Charles Darwin University",
@@ -228,7 +288,10 @@
     "lng": 130.8694,
     "website": "https://www.cdu.edu.au",
     "group": "IRU",
-    "founded": 2003
+    "founded": 2003,
+    "qs_rank": 601,
+    "tuition_min": 26000,
+    "tuition_max": 36000
   },
   {
     "name_en": "Macquarie University",
@@ -239,7 +302,10 @@
     "lng": 151.1126,
     "website": "https://www.mq.edu.au",
     "group": "",
-    "founded": 1964
+    "founded": 1964,
+    "qs_rank": 167,
+    "tuition_min": 33000,
+    "tuition_max": 46000
   },
   {
     "name_en": "University of Wollongong",
@@ -250,7 +316,10 @@
     "lng": 150.8784,
     "website": "https://www.uow.edu.au",
     "group": "",
-    "founded": 1951
+    "founded": 1951,
+    "qs_rank": 162,
+    "tuition_min": 30000,
+    "tuition_max": 44000
   },
   {
     "name_en": "University of Newcastle",
@@ -261,7 +330,10 @@
     "lng": 151.6971,
     "website": "https://www.newcastle.edu.au",
     "group": "",
-    "founded": 1965
+    "founded": 1965,
+    "qs_rank": 173,
+    "tuition_min": 30000,
+    "tuition_max": 44000
   },
   {
     "name_en": "University of Tasmania",
@@ -272,7 +344,10 @@
     "lng": 147.3255,
     "website": "https://www.utas.edu.au",
     "group": "",
-    "founded": 1890
+    "founded": 1890,
+    "qs_rank": 293,
+    "tuition_min": 28000,
+    "tuition_max": 40000
   },
   {
     "name_en": "Swinburne University of Technology",
@@ -283,7 +358,10 @@
     "lng": 145.0389,
     "website": "https://www.swinburne.edu.au",
     "group": "",
-    "founded": 1908
+    "founded": 1908,
+    "qs_rank": 285,
+    "tuition_min": 30000,
+    "tuition_max": 42000
   },
   {
     "name_en": "University of Canberra",
@@ -294,7 +372,10 @@
     "lng": 149.0843,
     "website": "https://www.canberra.edu.au",
     "group": "",
-    "founded": 1967
+    "founded": 1967,
+    "qs_rank": 484,
+    "tuition_min": 28000,
+    "tuition_max": 38000
   },
   {
     "name_en": "Victoria University",
@@ -305,7 +386,10 @@
     "lng": 144.8985,
     "website": "https://www.vu.edu.au",
     "group": "",
-    "founded": 1916
+    "founded": 1916,
+    "qs_rank": 601,
+    "tuition_min": 26000,
+    "tuition_max": 36000
   },
   {
     "name_en": "Bond University",
@@ -316,7 +400,10 @@
     "lng": 153.4159,
     "website": "https://www.bond.edu.au",
     "group": "",
-    "founded": 1987
+    "founded": 1987,
+    "qs_rank": 481,
+    "tuition_min": 34000,
+    "tuition_max": 48000
   },
   {
     "name_en": "Australian Catholic University",
@@ -327,7 +414,10 @@
     "lng": 144.9677,
     "website": "https://www.acu.edu.au",
     "group": "",
-    "founded": 1991
+    "founded": 1991,
+    "qs_rank": 801,
+    "tuition_min": 26000,
+    "tuition_max": 36000
   },
   {
     "name_en": "Edith Cowan University",
@@ -338,7 +428,10 @@
     "lng": 115.7633,
     "website": "https://www.ecu.edu.au",
     "group": "",
-    "founded": 1991
+    "founded": 1991,
+    "qs_rank": 491,
+    "tuition_min": 28000,
+    "tuition_max": 38000
   },
   {
     "name_en": "University of the Sunshine Coast",
@@ -349,7 +442,10 @@
     "lng": 153.0590,
     "website": "https://www.usc.edu.au",
     "group": "RUN",
-    "founded": 1994
+    "founded": 1994,
+    "qs_rank": 801,
+    "tuition_min": 26000,
+    "tuition_max": 35000
   },
   {
     "name_en": "Charles Sturt University",
@@ -360,7 +456,10 @@
     "lng": 149.5511,
     "website": "https://www.csu.edu.au",
     "group": "RUN",
-    "founded": 1989
+    "founded": 1989,
+    "qs_rank": 801,
+    "tuition_min": 26000,
+    "tuition_max": 36000
   },
   {
     "name_en": "Southern Cross University",
@@ -371,7 +470,10 @@
     "lng": 153.2933,
     "website": "https://www.scu.edu.au",
     "group": "RUN",
-    "founded": 1994
+    "founded": 1994,
+    "qs_rank": 801,
+    "tuition_min": 26000,
+    "tuition_max": 35000
   },
   {
     "name_en": "CQUniversity",
@@ -382,7 +484,10 @@
     "lng": 150.5217,
     "website": "https://www.cqu.edu.au",
     "group": "RUN",
-    "founded": 1967
+    "founded": 1967,
+    "qs_rank": 801,
+    "tuition_min": 26000,
+    "tuition_max": 35000
   },
   {
     "name_en": "Federation University Australia",
@@ -393,7 +498,10 @@
     "lng": 143.8793,
     "website": "https://www.federation.edu.au",
     "group": "RUN",
-    "founded": 1870
+    "founded": 1870,
+    "qs_rank": 801,
+    "tuition_min": 25000,
+    "tuition_max": 34000
   },
   {
     "name_en": "University of New England",
@@ -404,6 +512,9 @@
     "lng": 151.6380,
     "website": "https://www.une.edu.au",
     "group": "RUN",
-    "founded": 1954
+    "founded": 1954,
+    "qs_rank": 601,
+    "tuition_min": 26000,
+    "tuition_max": 36000
   }
 ]
