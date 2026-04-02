@@ -1,6 +1,5 @@
 const routes = {
-    '':             () => import('./home.js'),
-    'universities': () => import('./universities.js'),
+    '':             () => import('./universities.js'),
     'cities':       () => import('./cities.js'),
     'work':         () => import('./work.js'),
 };
