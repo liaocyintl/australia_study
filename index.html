@@ -10,7 +10,10 @@
     <header>
         <nav>
             <div class="logo"><a href="#/">🇦🇺 澳大利亚留学指南</a></div>
-            <ul>
+            <button class="menu-toggle" aria-label="菜单">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
                 <li><a href="#/" data-route="">大学地图</a></li>
                 <li><a href="#/cities" data-route="cities">城市指南</a></li>
                 <li><a href="#/work" data-route="work">打工指南</a></li>
@@ -27,6 +30,20 @@
         </div>
     </footer>
 
+    <script>
+    // Mobile menu toggle
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+        this.classList.toggle('open');
+        document.querySelector('.nav-links').classList.toggle('open');
+    });
+    // Close menu on nav click
+    document.querySelectorAll('.nav-links a').forEach(a => {
+        a.addEventListener('click', () => {
+            document.querySelector('.menu-toggle').classList.remove('open');
+            document.querySelector('.nav-links').classList.remove('open');
+        });
+    });
+    </script>
     <script type="module" src="js/router.js"></script>
 </body>
 </html>

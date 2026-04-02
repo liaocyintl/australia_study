@@ -259,13 +259,32 @@
     .map-layout {
         grid-template-columns: 1fr;
         height: auto;
+        gap: 1rem;
     }
 
     #map {
-        height: 400px;
+        height: 55vh;
+        min-height: 300px;
     }
 
     .uni-list {
-        max-height: 400px;
+        max-height: 350px;
     }
+
+    .filter-bar {
+        gap: 0.4rem;
+    }
+
+    .filter-btn {
+        padding: 0.4rem 0.7rem;
+        font-size: 0.75rem;
+    }
+
+    .uni-item { padding: 0.6rem 0.8rem; }
+    .uni-item .uni-name-zh { font-size: 0.9rem; }
+
+    /* Cost summary table scroll */
+    #cost-summary { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .cost-summary-table { min-width: 500px; }
+    .cost-summary-table th, .cost-summary-table td { padding: 0.6rem 0.8rem; font-size: 0.8rem; }
 }

@@ -320,28 +320,95 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsive */
+/* ── Hamburger menu button ── */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    z-index: 200;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 24px;
+    height: 2.5px;
+    background: #1a3a5c;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.menu-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* ── Responsive ── */
 @media (max-width: 768px) {
+    /* Navigation */
     nav {
+        padding: 0.8rem 1.2rem;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
         flex-direction: column;
-        gap: 0.8rem;
+        width: 100%;
+        gap: 0;
+        padding-top: 0.5rem;
     }
 
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.8rem;
+    .nav-links.open {
+        display: flex;
     }
 
-    .hero h1 {
-        font-size: 2rem;
+    .nav-links li {
+        border-top: 1px solid #f0f0f0;
     }
 
-    .hero p {
-        font-size: 1.1rem;
+    .nav-links a {
+        display: block;
+        padding: 0.8rem 0;
+        font-size: 1rem;
     }
 
-    .card-grid {
-        grid-template-columns: 1fr;
-    }
+    /* Hero */
+    .hero { padding: 3rem 1.2rem; }
+    .hero h1 { font-size: 1.8rem; }
+    .hero p { font-size: 1rem; }
+
+    .hero-small { padding: 2rem 1.2rem; }
+    .hero-small h1 { font-size: 1.6rem; }
+    .hero-small p { font-size: 0.9rem; }
+
+    /* Sections */
+    .section { padding: 2.5rem 1rem; }
+    .section h2 { font-size: 1.5rem; margin-bottom: 1.5rem; }
+    .section-desc { font-size: 0.85rem; margin-top: -1rem; margin-bottom: 1.5rem; }
+
+    /* Cards */
+    .card-grid { grid-template-columns: 1fr; gap: 1rem; }
+    .card { padding: 1.2rem; }
+
+    /* Tables - horizontal scroll */
+    .cost-table { font-size: 0.85rem; }
+    .cost-table th, .cost-table td { padding: 0.6rem 0.8rem; }
+
+    /* Footer */
+    footer { padding: 1.2rem 1rem; font-size: 0.8rem; }
+
+    /* Buttons - touch friendly */
+    .cta-button { padding: 0.7rem 1.5rem; font-size: 0.9rem; }
 }

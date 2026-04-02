@@ -276,15 +276,19 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-    .city-cards {
-        grid-template-columns: 1fr;
-    }
+    .city-cards { grid-template-columns: 1fr; }
+    .city-stats { grid-template-columns: 1fr 1fr; }
 
-    .city-stats {
-        grid-template-columns: 1fr;
-    }
+    .city-card-header { padding: 1rem; }
+    .city-card-header h3 { font-size: 1.1rem; }
+    .city-card-header h3 .city-en { display: block; margin-left: 0; margin-top: 0.2rem; }
+    .city-card-body { padding: 1rem; }
+    .city-description { font-size: 0.85rem; }
 
-    .hero-small h1 {
-        font-size: 1.8rem;
-    }
+    .sort-bar { gap: 0.3rem; }
+    .sort-btn { padding: 0.4rem 0.7rem; font-size: 0.75rem; }
+
+    /* Cost compare table scroll */
+    .cost-compare { -webkit-overflow-scrolling: touch; }
+    .cost-compare table { min-width: 600px; }
 }
