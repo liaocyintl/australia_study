@@ -1,0 +1,176 @@
+/* Universities page styles */
+
+nav .logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a.active {
+    color: #d4a843;
+    font-weight: 700;
+}
+
+.container-wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Filter bar */
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #ddd;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.3s;
+}
+
+.filter-btn:hover {
+    border-color: #1a3a5c;
+    color: #1a3a5c;
+}
+
+.filter-btn.active {
+    background: #1a3a5c;
+    border-color: #1a3a5c;
+    color: #fff;
+}
+
+/* Map layout */
+.map-layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 1.5rem;
+    height: 600px;
+}
+
+#map {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* University list sidebar */
+.uni-list {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.uni-list::-webkit-scrollbar {
+    width: 4px;
+}
+
+.uni-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 2px;
+}
+
+.uni-item {
+    padding: 0.8rem 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: all 0.2s;
+    border-left: 4px solid transparent;
+}
+
+.uni-item:hover,
+.uni-item.highlight {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    border-left-color: #1a3a5c;
+    background: #f7f9fc;
+}
+
+.uni-item .uni-name-zh {
+    font-weight: 600;
+    color: #1a3a5c;
+    font-size: 0.95rem;
+}
+
+.uni-item .uni-name-en {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 0.15rem;
+}
+
+.uni-item .uni-meta {
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 0.3rem;
+}
+
+.uni-item .uni-group-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-left: 0.3rem;
+    vertical-align: middle;
+}
+
+/* Group colors */
+.group-Go8 { background: #e8d5f5; color: #6b21a8; }
+.group-ATN { background: #d5edf5; color: #0369a1; }
+.group-IRU { background: #d5f5e3; color: #15803d; }
+.group-RUN { background: #fde8d0; color: #c2410c; }
+
+/* Leaflet popup */
+.uni-popup h3 {
+    margin: 0 0 0.2rem;
+    font-size: 1rem;
+    color: #1a3a5c;
+}
+
+.uni-popup .popup-en {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0.4rem;
+}
+
+.uni-popup .popup-info {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0.2rem 0;
+}
+
+.uni-popup a {
+    color: #2d6a9f;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.uni-popup a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .map-layout {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    #map {
+        height: 400px;
+    }
+
+    .uni-list {
+        max-height: 400px;
+    }
+}
