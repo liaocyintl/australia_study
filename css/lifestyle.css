@@ -1,0 +1,384 @@
+/* Lifestyle page styles */
+
+/* ── Week tabs ── */
+.week-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.day-tab {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #ddd;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #555;
+    transition: all 0.3s;
+}
+.day-tab:hover { border-color: #1a3a5c; color: #1a3a5c; }
+.day-tab.active { background: #1a3a5c; border-color: #1a3a5c; color: #fff; }
+
+/* Day detail */
+.day-detail {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    padding: 1.5rem;
+}
+
+.day-header h3 { color: #1a3a5c; font-size: 1.3rem; margin-bottom: 0.3rem; }
+.day-header .day-en { font-weight: 400; font-size: 0.9rem; color: #999; margin-left: 0.5rem; }
+.day-note { font-size: 0.9rem; color: #888; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #f0f0f0; }
+
+/* Compact timeline */
+.timeline-compact { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.tl-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.tl-time {
+    width: 50px;
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a3a5c;
+    text-align: right;
+    font-family: "SF Mono", "Menlo", monospace;
+}
+
+.tl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #2d6a9f;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.tl-item:not(:last-child) .tl-dot::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 16px;
+    background: #dde4ed;
+}
+
+.tl-text { font-size: 0.9rem; color: #555; }
+
+/* ── Food section ── */
+.meal-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.meal-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.meal-header {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a3a5c;
+    margin-bottom: 0.5rem;
+}
+
+.meal-cost {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #2d6a9f;
+    float: right;
+}
+
+.meal-desc { font-size: 0.85rem; color: #666; line-height: 1.6; margin-bottom: 0.6rem; }
+
+.meal-items { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+
+.meal-tag {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    background: #f0f4f8;
+    color: #1a3a5c;
+    border-radius: 8px;
+}
+
+.food-extra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.food-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+.food-card h3 { color: #1a3a5c; font-size: 1rem; margin-bottom: 0.4rem; }
+.food-card p { font-size: 0.85rem; color: #666; line-height: 1.6; }
+
+.cuisine-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.cuisine-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+    font-size: 0.85rem;
+}
+.cuisine-item strong { color: #1a3a5c; }
+.cuisine-item p { color: #666; margin-top: 0.2rem; font-size: 0.8rem; }
+
+.dining-tips {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+.dining-tips h3 { color: #1a3a5c; margin-bottom: 0.5rem; }
+.dining-tips ul { padding-left: 1.2rem; font-size: 0.85rem; color: #666; line-height: 1.8; }
+
+/* ── Hobbies ── */
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.hobby-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    transition: transform 0.3s;
+}
+.hobby-card:hover { transform: translateY(-2px); }
+
+.hobby-header h3 { color: #1a3a5c; font-size: 1rem; margin: 0; display: inline; }
+.hobby-en { font-size: 0.8rem; color: #999; margin-left: 0.5rem; }
+.hobby-desc { font-size: 0.85rem; color: #666; line-height: 1.6; margin: 0.5rem 0; }
+
+.hobby-tags { display: flex; gap: 0.4rem; }
+.hobby-tag { font-size: 0.7rem; padding: 0.15rem 0.5rem; border-radius: 8px; background: #f0f4f8; color: #555; font-weight: 500; }
+.cost-free { background: #d5f5e3; color: #15803d; }
+.cost-low { background: #dbeafe; color: #1e40af; }
+.cost-mid { background: #fef3c7; color: #92400e; }
+
+/* ── Budget ── */
+.budget-chart { display: flex; flex-direction: column; gap: 1rem; }
+
+.budget-row { display: flex; flex-direction: column; gap: 0.3rem; }
+
+.budget-label { font-size: 0.85rem; font-weight: 600; color: #1a3a5c; }
+
+.budget-bar-wrap { display: flex; align-items: center; gap: 0.8rem; }
+
+.budget-bar {
+    height: 24px;
+    background: linear-gradient(90deg, #c7d2fe, #6366f1);
+    border-radius: 12px;
+    position: relative;
+    min-width: 40px;
+}
+
+.budget-bar-min {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(255,255,255,0.4);
+    border-radius: 12px 0 0 12px;
+}
+
+.budget-value { font-size: 0.85rem; font-weight: 600; color: #1a3a5c; white-space: nowrap; }
+
+.budget-tip { font-size: 0.8rem; color: #888; line-height: 1.5; }
+
+.budget-total {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.budget-total-box {
+    background: linear-gradient(135deg, #1a3a5c 0%, #2d6a9f 100%);
+    color: #fff;
+    border-radius: 12px;
+    padding: 1rem 2.5rem;
+    text-align: center;
+}
+
+.budget-total-label { font-size: 0.85rem; opacity: 0.8; }
+.budget-total-value { font-size: 1.5rem; font-weight: 700; }
+
+.saving-tips {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+.saving-tips h3 { color: #1a3a5c; margin-bottom: 0.5rem; }
+.saving-tips ul { padding-left: 1.2rem; font-size: 0.85rem; color: #666; line-height: 1.8; }
+
+/* ── Transport ── */
+.transport-modes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.transport-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+.transport-card h3 { color: #1a3a5c; font-size: 1rem; margin-bottom: 0.3rem; }
+.transport-card p { font-size: 0.85rem; color: #666; line-height: 1.5; margin-bottom: 0.5rem; }
+.transport-discount { font-size: 0.8rem; color: #15803d; background: #f0fdf4; padding: 0.4rem 0.6rem; border-radius: 6px; }
+
+.transport-extra {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+/* ── Culture tips ── */
+.culture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.culture-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.culture-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+.culture-card h3 { color: #1a3a5c; font-size: 0.95rem; margin: 0; }
+.culture-card p { font-size: 0.85rem; color: #666; line-height: 1.6; }
+
+.imp-badge { font-size: 0.7rem; padding: 0.15rem 0.5rem; border-radius: 8px; font-weight: 600; flex-shrink: 0; }
+.imp-must { background: #fde8d0; color: #c2410c; }
+.imp-important { background: #fef3c7; color: #92400e; }
+.imp-know { background: #e2e8f0; color: #475569; }
+
+/* ── Holidays ── */
+.holiday-list { display: flex; flex-direction: column; gap: 1rem; }
+
+.holiday-item {
+    display: flex;
+    gap: 1.2rem;
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.holiday-date {
+    width: 140px;
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #2d6a9f;
+}
+
+.holiday-info { flex: 1; }
+.holiday-info h3 { color: #1a3a5c; font-size: 1rem; margin-bottom: 0.3rem; }
+.holiday-en { font-weight: 400; font-size: 0.8rem; color: #999; margin-left: 0.4rem; }
+.holiday-info p { font-size: 0.85rem; color: #666; margin-bottom: 0.4rem; }
+.holiday-impact { font-size: 0.8rem; color: #15803d; background: #f0fdf4; padding: 0.3rem 0.5rem; border-radius: 6px; display: inline-block; }
+
+/* ── Shopping ── */
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.8rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.shop-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+    font-size: 0.85rem;
+}
+.shop-card strong { color: #1a3a5c; }
+.shop-card p { color: #666; margin-top: 0.2rem; font-size: 0.8rem; line-height: 1.5; }
+
+.sales-list { display: flex; flex-direction: column; gap: 0.8rem; margin-top: 1rem; }
+
+.sale-item {
+    display: flex;
+    gap: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.sale-when {
+    width: 130px;
+    flex-shrink: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #c2410c;
+}
+
+.sale-info strong { color: #1a3a5c; font-size: 0.9rem; }
+.sale-info p { color: #666; font-size: 0.8rem; margin-top: 0.1rem; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .week-tabs { gap: 0.2rem; }
+    .day-tab { padding: 0.5rem 0.7rem; font-size: 0.8rem; }
+    .day-detail { padding: 1rem; }
+
+    .meal-cards { grid-template-columns: 1fr; }
+    .food-extra { grid-template-columns: 1fr; }
+    .cuisine-grid { grid-template-columns: 1fr 1fr; }
+
+    .hobbies-grid { grid-template-columns: 1fr; }
+
+    .transport-modes { grid-template-columns: 1fr; }
+    .transport-extra { grid-template-columns: 1fr; }
+
+    .culture-grid { grid-template-columns: 1fr; }
+
+    .holiday-item { flex-direction: column; gap: 0.5rem; }
+    .holiday-date { width: auto; }
+
+    .shop-grid { grid-template-columns: 1fr; }
+    .sale-item { flex-direction: column; gap: 0.3rem; }
+    .sale-when { width: auto; }
+}

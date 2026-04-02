@@ -3,6 +3,7 @@ const routes = {
     'cities':       () => import('./cities.js'),
     'work':         () => import('./work.js'),
     'career':       () => import('./career.js'),
+    'lifestyle':    () => import('./lifestyle.js'),
 };
 
 let currentModule = null;

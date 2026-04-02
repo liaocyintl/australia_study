@@ -1,0 +1,236 @@
+{
+  "weekly_schedule": [
+    {
+      "day_en": "Monday", "day_zh": "星期一",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "起床、洗漱"},
+        {"time": "07:00", "activity_zh": "早餐（吐司配牛油果或麦片）"},
+        {"time": "07:30", "activity_zh": "通勤上班或上学"},
+        {"time": "10:00", "activity_zh": "Morning tea，喝咖啡休息"},
+        {"time": "12:00", "activity_zh": "午餐，三明治、沙拉或寿司"},
+        {"time": "17:00", "activity_zh": "下班，部分人去健身房"},
+        {"time": "19:00", "activity_zh": "回家做饭、晚餐"},
+        {"time": "20:00", "activity_zh": "看Netflix或社交媒体"},
+        {"time": "22:30", "activity_zh": "就寝"}
+      ],
+      "notes_zh": "周一是一周的开始，咖啡店在早晨特别忙，一杯Flat White是很多人的「续命神器」。"
+    },
+    {
+      "day_en": "Tuesday", "day_zh": "星期二",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "起床"},
+        {"time": "07:30", "activity_zh": "通勤"},
+        {"time": "08:30", "activity_zh": "工作或上课"},
+        {"time": "12:00", "activity_zh": "午餐"},
+        {"time": "17:00", "activity_zh": "下班，参加社团或兴趣小组"},
+        {"time": "18:00", "activity_zh": "超市采购食材"},
+        {"time": "19:00", "activity_zh": "在家做饭"},
+        {"time": "22:00", "activity_zh": "就寝"}
+      ],
+      "notes_zh": "周二很多餐厅有特价活动，如Taco Tuesday或披萨半价，是外出就餐的好日子。"
+    },
+    {
+      "day_en": "Wednesday", "day_zh": "星期三",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "起床"},
+        {"time": "08:30", "activity_zh": "工作或上课"},
+        {"time": "12:00", "activity_zh": "午餐，部分大学有免费BBQ"},
+        {"time": "17:00", "activity_zh": "下班"},
+        {"time": "17:30", "activity_zh": "参加运动或健身"},
+        {"time": "19:00", "activity_zh": "晚餐"},
+        {"time": "20:00", "activity_zh": "和朋友聊天或打游戏"},
+        {"time": "22:30", "activity_zh": "就寝"}
+      ],
+      "notes_zh": "周三被称为「Hump Day」（一周过了一半），很多大学社团会在周三中午举办活动。"
+    },
+    {
+      "day_en": "Thursday", "day_zh": "星期四",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "起床"},
+        {"time": "08:30", "activity_zh": "工作或上课"},
+        {"time": "12:00", "activity_zh": "午餐"},
+        {"time": "17:00", "activity_zh": "下班"},
+        {"time": "17:30", "activity_zh": "逛街购物（Late Night Shopping夜）"},
+        {"time": "19:00", "activity_zh": "晚餐"},
+        {"time": "20:00", "activity_zh": "大学生的社交聚会之夜"},
+        {"time": "23:00", "activity_zh": "回家休息"}
+      ],
+      "notes_zh": "周四晚是很多城市的Late Night Shopping，商店营业到晚9点；也是大学生「出去玩之夜」。"
+    },
+    {
+      "day_en": "Friday", "day_zh": "星期五",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "起床"},
+        {"time": "08:30", "activity_zh": "工作或上课"},
+        {"time": "12:00", "activity_zh": "午餐"},
+        {"time": "16:30", "activity_zh": "很多人周五提早下班"},
+        {"time": "17:00", "activity_zh": "Friday Drinks — 和同事朋友去酒吧"},
+        {"time": "19:00", "activity_zh": "外出吃饭或叫外卖"},
+        {"time": "20:30", "activity_zh": "看电影、去酒吧或参加派对"},
+        {"time": "23:30", "activity_zh": "回家"}
+      ],
+      "notes_zh": "Friday Drinks是澳洲职场文化的重要组成部分，同事们一起去酒吧喝酒放松，留学生可借此融入社交圈。"
+    },
+    {
+      "day_en": "Saturday", "day_zh": "星期六",
+      "typical_schedule": [
+        {"time": "08:00", "activity_zh": "睡懒觉后起床"},
+        {"time": "08:30", "activity_zh": "去咖啡馆吃Brunch（早午餐）"},
+        {"time": "10:00", "activity_zh": "逛农贸市场（Farmers Market）"},
+        {"time": "11:30", "activity_zh": "做家务、洗衣服"},
+        {"time": "13:00", "activity_zh": "户外活动：海滩、公园或徒步"},
+        {"time": "16:00", "activity_zh": "和朋友BBQ烧烤聚会"},
+        {"time": "19:30", "activity_zh": "外出就餐"},
+        {"time": "21:00", "activity_zh": "看演出、看球赛或社交"},
+        {"time": "00:00", "activity_zh": "回家"}
+      ],
+      "notes_zh": "周六是最活跃的一天，Brunch文化盛行，咖啡馆常排长队，下午BBQ烧烤是经典社交方式。"
+    },
+    {
+      "day_en": "Sunday", "day_zh": "星期日",
+      "typical_schedule": [
+        {"time": "09:00", "activity_zh": "睡到自然醒"},
+        {"time": "09:30", "activity_zh": "悠闲享用早午餐"},
+        {"time": "11:00", "activity_zh": "阅读、看剧"},
+        {"time": "12:30", "activity_zh": "去公园散步或轻度运动"},
+        {"time": "14:00", "activity_zh": "购物（注意商店提早关门）"},
+        {"time": "16:00", "activity_zh": "Meal Prep — 准备下周的便当"},
+        {"time": "17:30", "activity_zh": "和室友一起做饭"},
+        {"time": "20:00", "activity_zh": "准备下周学习/工作计划"},
+        {"time": "22:00", "activity_zh": "早点休息"}
+      ],
+      "notes_zh": "周日是休息日，很多商店下午4-5点就关门，超市也提早打烊，建议提前安排好购物。"
+    }
+  ],
+  "food_culture": {
+    "breakfast": {
+      "description_zh": "澳洲人非常重视早餐，工作日在家快速解决或路上买咖啡配简单食物；周末则流行去咖啡馆吃丰盛的Brunch。",
+      "common_items_zh": ["牛油果吐司（Avocado Toast）", "Vegemite吐司（澳洲特色咸酱）", "麦片配牛奶（Weet-Bix国民品牌）", "培根鸡蛋配吐司", "酸奶配水果燕麦", "Flat White咖啡"],
+      "avg_cost": 15
+    },
+    "lunch": {
+      "description_zh": "午餐通常简单快捷，很多人自带或在学校食堂、快餐店解决。三明治、沙拉和寿司卷最常见。",
+      "common_items_zh": ["三明治或卷饼（Wrap）", "寿司卷", "沙拉", "肉馅饼（Meat Pie，澳洲经典）", "越南粉（Pho）", "炸鱼薯条"],
+      "avg_cost": 15
+    },
+    "dinner": {
+      "description_zh": "晚餐是最重要的一餐，通常在家做饭，周末可能外出。澳洲晚餐时间一般在6:30-7:30，比中国早。",
+      "common_items_zh": ["烤肉配蔬菜和土豆", "意大利面", "炒菜配米饭", "BBQ烧烤", "咖喱配米饭", "牛排"],
+      "avg_cost": 25
+    },
+    "coffee_culture_zh": "澳洲拥有全球最讲究的咖啡文化，Flat White就是澳洲发明的。澳洲人对品质要求极高，独立精品咖啡馆遍布各处，星巴克在澳洲反而不受欢迎。一杯咖啡5-7澳元，很多人每天至少一杯。",
+    "dining_out_tips_zh": [
+      "澳洲餐厅一般不收小费，账单金额即最终价格",
+      "很多餐厅采用BYO制度，允许自带酒水，可能收取开瓶费每瓶3-5澳元",
+      "周末和公共假日用餐可能被收取10%-15%的surcharge附加费，菜单上会注明",
+      "预订热门餐厅建议使用OpenTable或电话预约，周五周六晚需提前一周以上"
+    ],
+    "asian_food_zh": "澳洲亚洲美食非常丰富，悉尼的Chinatown、Burwood、Hurstville，墨尔本的Box Hill、Glen Waverley等区域有大量正宗中餐馆和亚洲超市，完全可以满足中国胃。",
+    "popular_cuisines": [
+      {"name_zh": "澳洲本土菜", "description_zh": "BBQ烧烤、肉馅饼、炸鱼薯条为代表，食材新鲜"},
+      {"name_zh": "意大利菜", "description_zh": "意大利移民带来的饮食文化深刻影响了澳洲，披萨和意面是最受欢迎的日常食物"},
+      {"name_zh": "中餐", "description_zh": "从粤菜早茶到川菜火锅，各地方菜系在大城市都能找到，价格比西餐实惠"},
+      {"name_zh": "越南菜", "description_zh": "Pho和Banh Mi是非常流行的平价美食，几乎每个区都有越南餐厅"},
+      {"name_zh": "日本料理", "description_zh": "寿司卷极其普遍，是常见午餐选择，拉面店也越来越多"},
+      {"name_zh": "泰国菜", "description_zh": "Pad Thai和各种咖喱是澳洲人的最爱，价格适中"},
+      {"name_zh": "希腊菜", "description_zh": "墨尔本拥有全球最大海外希腊社区，Souvlaki和沙拉非常普遍"},
+      {"name_zh": "印度菜", "description_zh": "各种咖喱、Naan和Chai非常流行，大学周边尤其多见"}
+    ]
+  },
+  "hobbies": [
+    {"name_zh": "冲浪", "name_en": "Surfing", "popularity": "非常普遍", "cost_level": "中", "description_zh": "澳洲拥有世界级冲浪海滩，初学者课程约70-100澳元一节，也可租板自己练习。", "student_friendly": true},
+    {"name_zh": "徒步/丛林漫步", "name_en": "Bushwalking", "popularity": "非常普遍", "cost_level": "免费", "description_zh": "数不清的国家公园和徒步路线，悉尼Blue Mountains、墨尔本Great Ocean Road附近都有绝佳路线。", "student_friendly": true},
+    {"name_zh": "BBQ烧烤", "name_en": "BBQ", "popularity": "非常普遍", "cost_level": "低", "description_zh": "公园里到处有免费电动烧烤炉，买些香肠牛排叫上朋友，是最澳洲的社交方式。", "student_friendly": true},
+    {"name_zh": "游泳/海滩", "name_en": "Swimming / Beach", "popularity": "非常普遍", "cost_level": "免费", "description_zh": "免费公共海滩遍布沿海城市，社区游泳池学生票约5-8澳元。", "student_friendly": true},
+    {"name_zh": "健身", "name_en": "Gym / Fitness", "popularity": "非常普遍", "cost_level": "中", "description_zh": "大学通常有自己的健身房，学生会费已包含使用权，非常划算。", "student_friendly": true},
+    {"name_zh": "看AFL/板球", "name_en": "Watching AFL / Cricket", "popularity": "非常普遍", "cost_level": "中", "description_zh": "AFL和板球是最受欢迎的运动，现场看比赛是了解澳洲文化的好方式，普通票约30-60澳元。", "student_friendly": true},
+    {"name_zh": "露营", "name_en": "Camping", "popularity": "很普遍", "cost_level": "中", "description_zh": "大量设施完善的露营地，国家公园每晚约15-40澳元，是假期出游的经济选择。", "student_friendly": true},
+    {"name_zh": "咖啡馆打卡", "name_en": "Cafe Hopping", "popularity": "很普遍", "cost_level": "低", "description_zh": "在不同精品咖啡馆打卡是年轻人的流行活动，尤其在墨尔本，一杯咖啡5-7澳元。", "student_friendly": true},
+    {"name_zh": "骑行", "name_en": "Cycling", "popularity": "很普遍", "cost_level": "中", "description_zh": "城市有完善自行车道，二手自行车约100-300澳元。注意澳洲法律要求骑车必须戴头盔。", "student_friendly": true},
+    {"name_zh": "瑜伽", "name_en": "Yoga", "popularity": "很普遍", "cost_level": "中", "description_zh": "瑜伽馆常有新会员优惠（如两周无限次30澳元），大学和社区中心也有免费瑜伽课。", "student_friendly": true},
+    {"name_zh": "钓鱼", "name_en": "Fishing", "popularity": "普遍", "cost_level": "低", "description_zh": "需购买钓鱼许可证（约10-35澳元/年），海钓和淡水钓都很受欢迎。", "student_friendly": true},
+    {"name_zh": "志愿者活动", "name_en": "Volunteering", "popularity": "普遍", "cost_level": "免费", "description_zh": "志愿者文化浓厚，不仅能交朋友提升英语，还能丰富简历。通过GoVolunteer网站寻找机会。", "student_friendly": true}
+  ],
+  "monthly_budget": {
+    "categories": [
+      {"category_zh": "房租", "min": 800, "max": 1600, "tips_zh": "合租最经济，通过Flatmates.com.au和Domain找房。住得离市中心远一些可以省很多。"},
+      {"category_zh": "食品杂货", "min": 300, "max": 500, "tips_zh": "关注Woolworths和Coles每周特价，ALDI通常便宜15%-20%。傍晚关门前肉类和面包常打折。"},
+      {"category_zh": "交通", "min": 80, "max": 200, "tips_zh": "办学生交通卡（悉尼Opal、墨尔本Myki）享半价。住学校附近步行上课最省。"},
+      {"category_zh": "手机和网络", "min": 30, "max": 60, "tips_zh": "推荐Vodafone、Optus预付费套餐30-40澳元/月。家庭宽带和室友分摊每人约20-30澳元/月。"},
+      {"category_zh": "娱乐", "min": 50, "max": 150, "tips_zh": "很多博物馆和美术馆免费，电影院周二是优惠日。善用学生证获取折扣。"},
+      {"category_zh": "外出就餐", "min": 100, "max": 300, "tips_zh": "多在家做饭，亚洲餐厅性价比更高。午餐套餐通常比晚餐便宜很多。"},
+      {"category_zh": "水电煤气", "min": 60, "max": 120, "tips_zh": "和室友分摊，冬天暖气费用会增加。注意随手关灯关暖气节能。"},
+      {"category_zh": "医疗保险（OSHC）", "min": 50, "max": 70, "tips_zh": "留学生必须购买，通常申请签证时一次性缴纳。可选Medibank、Bupa、Allianz等。"}
+    ],
+    "total_min": 1470,
+    "total_max": 3000,
+    "saving_tips_zh": [
+      "每周做Meal Prep（备餐），批量做好几天午餐带到学校，比在外面买至少省50澳元/周",
+      "下载Woolworths和Coles App关注半价特卖，傍晚关门前抢打折肉类和面包",
+      "购买二手教科书或使用图书馆借阅，新教科书每本100-200澳元，二手或电子版省很多",
+      "利用学生优惠：Apple Music/Spotify学生半价，Amazon Prime学生版每年约35澳元",
+      "关注Boxing Day、EOFY、Black Friday等大促活动，集中采购大件物品"
+    ]
+  },
+  "cultural_tips": [
+    {"title_zh": "守时非常重要", "description_zh": "澳洲人非常重视准时，迟到被视为不礼貌。如果不可避免要迟到，一定提前通知。建议比约定时间早到5分钟。", "importance": "必知"},
+    {"title_zh": "排队文化", "description_zh": "无论超市、公交站还是咖啡馆都要自觉排队，插队会被当面指出。这和中国一些场合的习惯可能不同。", "importance": "必知"},
+    {"title_zh": "打招呼说G'day", "description_zh": "澳洲人常说「G'day」或「How are you going?」，这只是礼貌性问候，回答「Good, thanks! You?」即可。收银员也会和你聊几句。", "importance": "必知"},
+    {"title_zh": "Please和Thank you", "description_zh": "说Please和Thank you是基本礼仪，不说会显得很没礼貌。下公交车时对司机说「Thanks, driver」是澳洲特色。", "importance": "必知"},
+    {"title_zh": "防晒是生存必需", "description_zh": "澳洲紫外线强度全球最高之一，出门必涂SPF50+防晒霜、戴帽子和太阳镜。即使阴天也需要防晒。", "importance": "必知"},
+    {"title_zh": "尊重多元文化", "description_zh": "澳洲人口来自200多个国家，对不同种族、宗教、性取向保持尊重非常重要。歧视性言论不被接受甚至可能违法。", "importance": "必知"},
+    {"title_zh": "个人空间", "description_zh": "交谈时保持约一臂距离，除了握手和好友间拥抱外避免随意触碰别人。排队和乘车时也不要离别人太近。", "importance": "重要"},
+    {"title_zh": "直接表达意见", "description_zh": "澳洲人沟通方式比较直接，教授鼓励学生表达观点甚至质疑权威。不要把直接表达理解为攻击性行为。", "importance": "重要"},
+    {"title_zh": "AA制文化", "description_zh": "朋友一起吃饭通常AA制（split the bill），不像中国习惯一人请客。餐厅服务员很习惯帮你分开结账。", "importance": "重要"},
+    {"title_zh": "澳洲俚语很多", "description_zh": "arvo=下午、brekkie=早餐、Maccas=麦当劳、servo=加油站。刚开始可能听不懂，慢慢就会习惯。", "importance": "重要"},
+    {"title_zh": "不要问收入和年龄", "description_zh": "直接询问薪资、房价、年龄或体重被认为不礼貌，和中国的社交习惯有很大不同。", "importance": "重要"},
+    {"title_zh": "垃圾分类", "description_zh": "红色桶=一般垃圾、黄色桶=可回收物、绿色桶=有机垃圾。超市不提供免费塑料袋，建议自备购物袋。乱扔垃圾可能被罚款。", "importance": "重要"}
+  ],
+  "public_holidays": [
+    {"name_en": "New Year's Day", "name_zh": "元旦", "date_zh": "1月1日", "description_zh": "跨年夜参加烟花派对和倒计时，悉尼海港大桥烟花秀全球闻名。", "student_impact_zh": "大部分商店关门或缩短营业。打工可获双倍甚至2.5倍工资。"},
+    {"name_en": "Australia Day", "name_zh": "澳大利亚国庆日", "date_zh": "1月26日", "description_zh": "BBQ、海滩聚会和观看烟花的日子，也有关于原住民权益的讨论活动。", "student_impact_zh": "全国放假，很多社区举办免费户外活动，是了解文化和社交的好机会。"},
+    {"name_en": "Good Friday & Easter", "name_zh": "耶稣受难日和复活节", "date_zh": "3月底至4月中旬（每年不同）", "description_zh": "连续四天假期，吃Hot Cross Buns和巧克力彩蛋，很多家庭出游露营。", "student_impact_zh": "耶稣受难日几乎所有商店关闭，建议提前备好食物。连续四天假期适合短途旅行。打工2.5倍工资。"},
+    {"name_en": "Anzac Day", "name_zh": "澳新军团日", "date_zh": "4月25日", "description_zh": "纪念战争中服役的军人，清晨有Dawn Service黎明仪式，之后参加游行。", "student_impact_zh": "上午商店不营业，下午可能恢复。这是严肃的纪念日，请尊重当地习俗。"},
+    {"name_en": "Queen's/King's Birthday", "name_zh": "国王生日", "date_zh": "大部分州6月第二个星期一", "description_zh": "实际上只是一个额外的休息日，享受三天长周末。", "student_impact_zh": "放假一天，商店营业时间可能缩短。打工有公共假日加班费。"},
+    {"name_en": "Christmas Day", "name_zh": "圣诞节", "date_zh": "12月25日", "description_zh": "澳洲圣诞在夏天，人们在家聚餐、交换礼物，也有很多人去海滩过圣诞。", "student_impact_zh": "几乎所有商店和公共交通停运。建议提前和朋友约好聚会。打工2.5倍工资。"},
+    {"name_en": "Boxing Day", "name_zh": "节礼日", "date_zh": "12月26日", "description_zh": "澳洲一年中最大的打折购物日，各大商场凌晨开门，折扣30%-70%。", "student_impact_zh": "商店恢复营业且延长营业时间，是购买电子产品和衣服的最佳时机。"},
+    {"name_en": "Melbourne Cup", "name_zh": "墨尔本杯赛马日", "date_zh": "11月第一个星期二", "description_zh": "被称为「让全国停下来的比赛」，人们盛装打扮观看赛马转播。", "student_impact_zh": "墨尔本地区为公共假期，其他州不放假但很多公司组织观看。"}
+  ],
+  "shopping": {
+    "supermarkets": [
+      {"name": "Woolworths", "description_zh": "最大连锁超市，每周三更新特价。下载Everyday Rewards App积分换折扣，自有品牌Essentials价格实惠。"},
+      {"name": "Coles", "description_zh": "与Woolworths齐名，Flybuys会员卡积分。每周三更新半价特卖，自有品牌性价比高。"},
+      {"name": "ALDI", "description_zh": "德国折扣超市，价格低15%-20%。每周三和周六有Special Buys特卖。不提供购物袋需自带。"},
+      {"name": "IGA", "description_zh": "社区型超市，价格略高但营业时间更长，有些24小时营业。"},
+      {"name": "Costco", "description_zh": "仓储式会员超市，年费65澳元。适合和室友合买大包装商品。"}
+    ],
+    "asian_groceries_zh": "大城市的亚洲超市非常丰富，如悉尼和墨尔本的同发超市、大华超市等。可以买到中国调味料、火锅底料、方便面、豆腐、中式蔬菜等。Woolworths和Coles也有Asian食品货架。",
+    "online_shopping": [
+      {"name": "Amazon Australia", "description_zh": "Prime学生半价每年约35澳元，电子产品和书籍选择多。"},
+      {"name": "eBay Australia", "description_zh": "二手和全新商品，买二手家具电子产品很实惠。"},
+      {"name": "Kmart / Target", "description_zh": "平价百货，家居用品和文具便宜，刚到澳洲置办生活用品首选。"},
+      {"name": "Gumtree", "description_zh": "澳洲版「闲鱼」，二手交易平台。也有租房和兼职信息。"},
+      {"name": "Facebook Marketplace", "description_zh": "留学生群体中很流行，毕业回国的同学常低价出售物品。"},
+      {"name": "Chemist Warehouse", "description_zh": "最大连锁药房，保健品护肤品价格全网最低，常有大促。"}
+    ],
+    "tipping_zh": "澳洲没有强制小费文化，和美国完全不同。服务员工资已包含在菜价中（最低时薪约24澳元），不给小费完全正常。如果服务特别出色，可以留一些零钱，但绝不是必须的。",
+    "sales_events": [
+      {"name_zh": "Boxing Day大促", "when_zh": "12月26日起约一周", "description_zh": "一年最大打折，各大商场折扣30%-70%，电子产品和服装是重点。"},
+      {"name_zh": "EOFY财年末促销", "when_zh": "6月中至6月30日", "description_zh": "澳洲财年6月30日结束，商家清仓，电子产品和家具折扣大。"},
+      {"name_zh": "Black Friday", "when_zh": "11月最后一个周五及周末", "description_zh": "线上线下大幅折扣，电子产品和时尚品牌折扣最明显。"},
+      {"name_zh": "Click Frenzy", "when_zh": "5月和11月", "description_zh": "澳洲本土线上购物节，类似双十一，参与品牌众多。"},
+      {"name_zh": "超市每周半价特卖", "when_zh": "每周三更新", "description_zh": "Woolworths和Coles轮流推出半价优惠，根据两家特价安排每周采购最省钱。"}
+    ]
+  },
+  "transport": {
+    "modes": [
+      {"name_zh": "火车/城铁", "description_zh": "大城市主要交通，悉尼和墨尔本网络发达。高峰时段（早7-9点，晚4-6:30）较拥挤。", "student_discount_zh": "新州学生Opal卡半价，维州iUSE学生Myki卡优惠票价。需学校开具全日制证明申请。"},
+      {"name_zh": "公交车", "description_zh": "覆盖面比火车更广，连接火车站和住宅区。与火车使用同一张交通卡。", "student_discount_zh": "与火车相同学生优惠，换乘通常按一次行程计费。"},
+      {"name_zh": "电车/有轨电车", "description_zh": "墨尔本拥有全球最大有轨电车网络，CBD区域内（Free Tram Zone）完全免费。", "student_discount_zh": "墨尔本CBD免费区域内所有人免费，区域外用学生Myki卡享优惠。"},
+      {"name_zh": "轮渡", "description_zh": "悉尼轮渡兼具通勤和观光，连接环形码头与Manly等地。布里斯班有CityCat服务。", "student_discount_zh": "使用学生交通卡享同等优惠。悉尼到Manly轮渡是最受欢迎线路。"}
+    ],
+    "driving_zh": "澳洲靠左行驶（和中国相反）。持中国驾照可在澳合法驾驶，但需携带NAATI认证英文翻译件。长期居住建议考取当地驾照。二手车可通过Carsales.com.au购买，购车前做PPSR查询。城市中心停车费每小时10-15澳元。",
+    "cycling_zh": "法律规定骑车必须戴头盔，违反罚款约300-400澳元。大部分城市有专用自行车道，二手车Gumtree上100-300澳元可买到。",
+    "rideshare_zh": "Uber和DiDi是主要网约车平台，DiDi通常比Uber便宜10%-15%。高峰和深夜有动态加价。几个人一起打车可能比各自买公交票还划算。"
+  }
+}
