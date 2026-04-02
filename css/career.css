@@ -1,0 +1,399 @@
+/* Career page styles */
+
+/* ── Sort bar ── */
+.ind-sort-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.sort-label {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.sort-btn {
+    padding: 0.4rem 1rem;
+    border: 2px solid #ddd;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.3s;
+}
+.sort-btn:hover { border-color: #1a3a5c; color: #1a3a5c; }
+.sort-btn.active { background: #1a3a5c; border-color: #1a3a5c; color: #fff; }
+
+/* ── Industry cards ── */
+.industry-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.ind-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ind-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.ind-card-left {
+    flex: 1;
+    padding: 1.3rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.ind-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f4f8;
+    border-radius: 12px;
+}
+
+.ind-info { flex: 1; }
+.ind-info h3 { color: #1a3a5c; font-size: 1.1rem; margin: 0; }
+.ind-en { font-size: 0.8rem; color: #999; margin-top: 0.1rem; }
+.ind-desc { font-size: 0.85rem; color: #666; line-height: 1.6; margin-top: 0.5rem; }
+
+.ind-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.6rem;
+}
+
+.skill-tag {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    background: #f0f4f8;
+    color: #1a3a5c;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.ind-card-right {
+    width: 300px;
+    flex-shrink: 0;
+    padding: 1.3rem;
+    background: #f7f9fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.ind-stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.ind-stat-label { font-size: 0.7rem; color: #999; }
+.ind-stat-value { font-size: 0.9rem; font-weight: 600; color: #333; }
+.salary-value { color: #1a3a5c; font-size: 1rem; }
+.growth-value { color: #15803d; }
+
+.demand-tag {
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.tag-high { background: #d5f5e3; color: #15803d; }
+.tag-mid { background: #fef3c7; color: #92400e; }
+.tag-low { background: #fde8d0; color: #c2410c; }
+
+.ind-badges { display: flex; gap: 0.5rem; }
+
+.visa-badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 8px;
+    background: #d5f5e3;
+    color: #15803d;
+    font-weight: 500;
+}
+
+.visa-badge-no {
+    background: #f0f0f0;
+    color: #999;
+}
+
+/* ── Salary chart ── */
+.salary-chart { max-width: 900px; margin: 0 auto; }
+
+.chart-bars { display: flex; flex-direction: column; gap: 0.6rem; }
+
+.chart-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chart-label {
+    width: 200px;
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    color: #444;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.chart-bar-wrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.chart-bar-bg {
+    flex: 1;
+    height: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.chart-bar-range {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    background: linear-gradient(90deg, #c7d2fe, #6366f1);
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+.chart-bar-avg {
+    position: absolute;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #1a3a5c;
+    border-radius: 2px;
+    transform: translateX(-1.5px);
+}
+
+.chart-value {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1a3a5c;
+    white-space: nowrap;
+    width: 50px;
+}
+
+.chart-legend {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.legend-item { display: flex; align-items: center; gap: 0.4rem; }
+
+.legend-bar {
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    background: linear-gradient(90deg, #c7d2fe, #6366f1);
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+.legend-dot {
+    display: inline-block;
+    width: 3px;
+    height: 14px;
+    background: #1a3a5c;
+    border-radius: 2px;
+}
+
+/* ── Company filter ── */
+.company-filter-bar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 2px solid #ddd;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.3s;
+}
+.filter-btn:hover { border-color: #1a3a5c; color: #1a3a5c; }
+.filter-btn.active { background: #1a3a5c; border-color: #1a3a5c; color: #fff; }
+
+/* ── Company cards ── */
+.company-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 1.2rem;
+}
+
+.co-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.co-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.co-card-header {
+    background: linear-gradient(135deg, #1a3a5c 0%, #2d6a9f 100%);
+    color: #fff;
+    padding: 1rem 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.co-card-header h3 { margin: 0; font-size: 1.1rem; }
+.co-name-zh { font-size: 0.8rem; opacity: 0.8; margin-top: 0.1rem; }
+
+.co-header-right { flex-shrink: 0; }
+
+.co-industry-tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.co-card-body {
+    padding: 1.2rem 1.3rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.co-desc {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+.co-meta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.co-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.co-meta-icon { font-size: 0.9rem; }
+
+.co-roles { margin-bottom: 0.8rem; }
+
+.co-roles-label {
+    font-size: 0.75rem;
+    color: #999;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.co-roles-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.role-tag {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    background: #f0f4f8;
+    color: #1a3a5c;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.co-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 0.8rem;
+    border-top: 1px solid #f0f0f0;
+}
+
+.co-link {
+    color: #2d6a9f;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.co-link:hover { text-decoration: underline; }
+
+/* ── Tips ── */
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+}
+
+.tip-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    transition: transform 0.3s;
+}
+.tip-card:hover { transform: translateY(-3px); }
+.tip-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+.tip-card h3 { color: #1a3a5c; font-size: 1rem; margin-bottom: 0.4rem; }
+.tip-card p { font-size: 0.85rem; color: #666; line-height: 1.6; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .ind-card { flex-direction: column; }
+    .ind-card-right { width: 100%; }
+    .chart-label { width: 120px; font-size: 0.75rem; }
+    .company-list { grid-template-columns: 1fr; }
+    .co-meta-grid { grid-template-columns: 1fr; }
+}

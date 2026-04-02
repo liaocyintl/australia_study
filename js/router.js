@@ -2,6 +2,7 @@ const routes = {
     '':             () => import('./universities.js'),
     'cities':       () => import('./cities.js'),
     'work':         () => import('./work.js'),
+    'career':       () => import('./career.js'),
 };
 
 let currentModule = null;
